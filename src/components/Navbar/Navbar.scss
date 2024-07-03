@@ -1,5 +1,5 @@
 .navbar {
-  height: 80px;
+  height: 120px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -23,8 +23,18 @@
     }
 
     .center {
-      font-size: 30px;
+      font-size: 40px;
       letter-spacing: 2px;
+
+      span {
+        display: inline-block;
+        margin: .5rem;
+      }
+
+      .titleLetterReversed {
+        transform: scale(-1, 1);
+      }
+
     }
 
     .right {
